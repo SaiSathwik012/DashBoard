@@ -1,0 +1,100 @@
+/* Page styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #007bff; /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+  }
+  
+  /* Center the heading */
+  .App h1 {
+    text-align: center;
+    font-size: 36px;
+    margin: 20px 0;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Dashboard container styling */
+  .dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Card styling */
+  .card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 40px;
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover effect for cards */
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Card header styling */
+  .card h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+    transition: color 0.3s ease;
+    text-align: center;
+  }
+  
+  /* Card content styling */
+  .card p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+  }
+  
+  /* Button styling within cards */
+  .card button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Hover effect for buttons */
+  .card button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  /* Focus effect for buttons */
+  .card button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+  }
+  
+  .widget {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: .25rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+  }
+  
+  .widget h3 {
+    margin-top: 0;
+  }
+  
